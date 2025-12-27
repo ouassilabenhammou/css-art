@@ -1,47 +1,26 @@
 <script>
-  import Square from '../components/Square.svelte';
-  import Mondriaan from '../components/Mondriaan.svelte';
+    import PlatenSpeler from "$lib/components/css-art/PlatenSpeler.svelte";
 </script>
 
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://svelte.dev/docs/kit">svelte.dev/docs/kit</a> to read the documentation</p>
+<div class="page-container">
+    <PlatenSpeler/>
 
-<div class="layout">
-  <!-- Vierkantjes container -->
-<div class="squares-container">
-  <Square color="#6366f1" />
-  <Square color="#ec4899" />
-  <Square color="#10b981" />
-</div>
-  <div>
-<Mondriaan />
-</div>
 </div>
 
-
-<!-- Style -->
 
 <style>
-  .squares-container {
-    display: flex;
-    gap: 20px;
-    margin-top: 30px;
-
-    flex-wrap: wrap;
-    border: 2px solid black;
-  }
-
-  .layout{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-
-  }
-
-  @media (max-width: 768px){
-    .layout{
-      grid-template-columns: 1fr;
-      gap: 10px;
+ 
+    .page-container{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        height: 100vh;
     }
-  }
 
+    @media (max-width: 600px) {
+        .page-container{
+            grid-template-columns: 1fr;
+            grid-template-rows: repeat(2, 1fr);
+        }
+    }
 </style>
