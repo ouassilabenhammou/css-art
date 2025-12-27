@@ -1,6 +1,8 @@
 <script>
     import Square from "$lib/components/oefenen/Square.svelte";
     import Mondriaan from "$lib/components/oefenen/Mondriaan.svelte";
+    import Vormen from "$lib/components/oefenen/Vormen.svelte";
+    import Patronen from "$lib/components/oefenen/Patronen.svelte";
   </script>
   
   <div class="layout">
@@ -14,6 +16,10 @@
   <Mondriaan />
   </div>
   </div>
+
+  <Patronen/>
+  <Vormen/>
+
   
   <!-- Style -->
   
