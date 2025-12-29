@@ -1,19 +1,27 @@
 <script>
     import PlatenSpeler from "$lib/components/css-art/PlatenSpeler.svelte";
+    import Viskom from "$lib/components/css-art/Viskom.svelte";
     import WillemII from "$lib/components/css-art/WillemII.svelte";
+    import YoshiPixel from "$lib/components/css-art/YoshiPixel.svelte";
+   
 </script>
 
 <div class="page-container">
     <PlatenSpeler/>
+    <Viskom/>
+
     <div class="single-container">
     <WillemII/>
     </div>
+
+    <YoshiPixel/>
 </div>
 
 
 
 
 <style>
+ 
     .page-container{
         display: grid;
         grid-template-columns: repeat(2, 1fr);
