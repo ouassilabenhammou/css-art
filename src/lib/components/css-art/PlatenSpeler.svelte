@@ -28,11 +28,12 @@
         justify-content: center;
         align-items: center;
         background-color: var(--licht-blauw);
+        
     }
     .platenspeler-wrapper{
         position: relative;
         width: 250px;
-        height: 300px;
+        height: 410px;
         display: flex;
         align-items: center;
         justify-content: center;
