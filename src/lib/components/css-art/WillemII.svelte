@@ -1,6 +1,3 @@
-<script>
-
-</script>
 <div class="container">
 <div class="logo-wrapper">
 <div class="willemII">
