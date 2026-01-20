@@ -30,6 +30,46 @@ npm run dev
 
 Ga naar: http://localhost:5173/
 
+## Mappenstructuur
+
+```bash
+├── src/
+│   ├── lib/
+│   │   └── components/
+│   │       ├── css-art/
+│   │       │   ├── PlatenSpeler.svelte
+│   │       │   ├── Viskom.svelte
+│   │       │   └── WillemII.svelte
+│   │       │
+│   │       └── oefenen/
+│   │           ├── Mondriaan.svelte
+│   │           ├── Patronen.svelte
+│   │           ├── Square.svelte
+│   │           └── Vormen.svelte
+│   │
+│   ├── routes/
+│   │   ├── oefenen/
+│   │   │   ├── +page.svelte
+│   │   │   └── +layout.svelte
+│   │   └── +page.svelte
+│   │
+│   ├── app.d.ts
+│   └── app.html
+│
+├── static/
+│   └── screenshots/
+│       ├── platenspeler.png
+│       ├── viskom.png
+│       └── willem-ii.png
+│
+├── package.json
+└── vite.config.js
+```
+
+## Live link
+
+🔗 https://css-art-project.vercel.app
+
 ## Projectinhoud
 
 Het eindresultaat bestaat uit drie CSS art projecten:
